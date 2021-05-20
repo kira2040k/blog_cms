@@ -1,0 +1,68 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../assets/admin_panel.css">
+    </head>
+<p id=status></p>
+<div class="container">
+    
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Blog title</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="blog_title" name="blog_title" placeholder="blog_title">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">des</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="des" name="des" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Subject title</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="subject_title" name="subject_title" placeholder="subject_title">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+          <select id="platform" name="platform">
+            <option value="twitter">twitter</option>
+            <option value="insta">insta</option>
+            <option value="snapchat">snapchat</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">username</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="username" name="username" placeholder="e.g:kira_321k">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">content</label>
+        </div>
+        <div class="col-75">
+          <textarea id="content" name="content" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" onclick="send()" value="Submit">
+      </div>
+    
+  </div>
+<script src="../assets/admin_panel.js"></script>
+
+</html>
